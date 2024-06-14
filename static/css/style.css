@@ -1,0 +1,150 @@
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+li 
+{
+    color: #082355;
+    font-weight: 600;
+    
+}
+a
+{
+    text-decoration: none;
+    
+}
+.search
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    border-radius: 10px;
+    width: 42vw;
+    border-radius: 4px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.textSearch
+{
+    
+    font-size: 14px;
+    border: none;
+    outline: black;
+    border:2px solid #111;
+    width: 40vw;
+    color: #111;
+    height: 40px;
+    padding-left:20px ;
+    border-radius: 10px;
+
+}
+
+.searchicon
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+.text
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    color:#A00000;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(8px);
+    width: 100vw;
+    height: 100%;
+	-webkit-text-stroke: 1px  #A00000;
+	text-shadow: 23px 25px 25px #09142E;
+    padding-bottom: 200px;
+}
+.image
+{
+
+    width:100px;
+
+}
+.para
+{
+    font-size:large;
+    font-weight: 500;
+}
+.contain
+{
+    display: flex;
+    height: 93.6vh;
+    align-items: center;
+    
+    gap: 200px;
+    text-align: center;
+
+}
+.div1
+{
+    text-align: center;
+   
+   
+}
+.page
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 10px;
+
+}
+.blog
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 88px;
+  
+
+
+}
+
+.zz
+{
+    width: 100%; 
+    overflow-x: auto;
+    display: flex;
+    gap: 20px; 
+    padding: 20px; 
+    -webkit-overflow-scrolling: touch;
+}
+.zz .card {
+    flex: 0 0 auto;
+    width: 340px; 
+    background-color: #D7D7D7;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+  .zc .card {
+      width: 500px;
+      height: 300px;
+      background-color: #E6E6E6;
+      
+    }
+  
+    ::-webkit-scrollbar {
+      display: none;
+    }

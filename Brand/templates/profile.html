@@ -1,0 +1,21 @@
+{% extends "home.html" %}
+{% block container %}
+<div style=" width: 35%;margin: auto; box-shadow:#0D6EFD  0px 100px 600px -50px;padding:30px;" >
+    <h1>Profile</h1>
+    <p>Username: {{ user.username }}</p>
+    
+    
+    <h2>Order History</h2>
+    <ul>
+        {% for order in orders %}
+        <li>{{ order.car }} ~ {{ order.date }}</li>
+        {% endfor %}
+    </ul>
+    
+    <button class="btn btn-outline-danger" type="submit"><a class="nav-link" href="{% url 'Profile_edit'%}">Update here <i class="fa-solid fa-angles-right"></i></a></button>
+</div>
+
+{%endblock%}
+
+{% block contain %}
+{% endblock %}
